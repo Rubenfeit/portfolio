@@ -118,7 +118,7 @@
                         <a class="nav-link  dropdown-item bg-dark" href="#">Project banque Java (Jbdc et un autre avec Hibernate)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Apllication Mobile(Android)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Un Site</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="#">E-Securemail</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="projects/Secuserve.html">Secuserve</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Application web Gestion jeux Petanque</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Planner</a>
                         <!--div class="dropdown-divider"></div-->
