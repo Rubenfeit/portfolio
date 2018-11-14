@@ -28,8 +28,8 @@
 
         <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
             <ul class="navbar-nav">
-                <li class="nav-item active mx-3">
-                    <a class="nav-link" href="experiences/experiences.html">Mes Expériences <span class="sr-only">(current)</span></a>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="experiences/experiences.html">Mes Expériences</a>
                 </li>
 
                 <!--li class="nav-item  dropdown mx-3">
@@ -121,12 +121,13 @@
                         <a class="nav-link  dropdown-item bg-dark" href="projects/Secuserve.html">Secuserve</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Application web Gestion jeux Petanque</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Planner</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="#">TimeSheet</a>
                         <!--div class="dropdown-divider"></div-->
 
                     </div>
                 </li>
-                <li class="nav-item active mx-3">
-                    <a class="nav-link" href="contact/contact.html"> Me Contacter <span class="sr-only">(current)</span></a>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="contact/contact.html"> Me Contacter </a>
                 </li>
             </ul>
         </div>
