@@ -116,10 +116,10 @@
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                         <a class="nav-link  dropdown-item bg-dark" href="#">Plate-forme Gestion d'eleves</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Project banque Java (Jbdc et un autre avec Hibernate)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="#">Apllication Mobile(Android)</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="projects/Android.html">Apllication Mobile(Android)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Un Site</a>
                         <a class="nav-link  dropdown-item bg-dark" href="projects/Secuserve.html">Secuserve</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="#">Application web Gestion jeux Petanque</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="projects/Petanque.html">Application web Gestion jeux Petanque</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Planner</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">TimeSheet</a>
                         <!--div class="dropdown-divider"></div-->
@@ -281,7 +281,7 @@
                         <div class="p-2  shadow-lg" style="margin-top: 20px;">
                             <h4>Why?</h4>
                             <hr>
-                            <p>Il y a une certaine mystique dans l'inconnue.</p>
+                            <p>Il y a une certaine mystique dans l'inconnue qui nous amene a decouvrir pourquoi ça fonctionne de tel façon. c'est le significat de la vie, la decouverte</p>
                         </div>
                     </div>
                     
@@ -302,7 +302,7 @@
                         <div class="p-2  shadow-lg" style="margin-top: 20px;">
                             <h4>Left or Right?</h4>
                             <hr>
-                            <p>Ni trop de sel ni trop de sucre.</p>
+                            <p>Ni trop de sel ni trop de sucre.c'est en équilibre que la vertu est</p>
                         </div>
                     </div>
                     
@@ -321,6 +321,12 @@
 
 
 </body>
+
+<footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+</footer>
 
 <script type="text/javascript">
     $(document).ready(function () {
