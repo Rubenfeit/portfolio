@@ -15,11 +15,99 @@
         <title>Full Stack Conf</title>
 
         <style>
-img {
-    width: 100%;
-    height: auto;
+            img {
+                    width: 100%;
+                    height: auto;
+                }
+           
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-</style>
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 900px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+        </style>
     </head>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -128,117 +216,143 @@ img {
                     </div>
                 </div>
                 <hr>
+                
+                <p>Dans le Cadre de ma formation un projet web ça m'a ete donée pour evaluation. 
+                    Ce projet c’est basé sur un jeu très populaire français « La Pétanque «</p>
 
-
-                <p>Dans le Cadre de ma formation, j’ai pu développer une application Android.
-                    Suite à beaucoup de recherche de ma part, j’ai pu faire un clone de whatsApp basic.</p>
-                <p>L’application envoie et reçoit des messages de texto par internet, possibilité de rajouter des contacts, créer un login et de voir toutes les conversations.</p>
-
-
-
-                <p>Pour developper cette application, j'ai utilisé:</p>
+                <p>Les exigences :</p>
                 <ul>
-                    <li>Java</li>
-                    <li>AndroidStudio</li>
-                    <li>Material Design</li>
-                    <li>FireBase</li>
+                    <li>Créer des joueurs</li>
+                    <li>Créer des tournois</li>
+                    <li>Choisir les joueurs</li>
+                    <li>choisir les tournois crées</li>
+                    <li>Creer des équipes de 2 ou 3 joueurs.</li>
+                    <li>Consulter équipes formées </li>
+                    <li>Consulter au score</li>
                 </ul>
-                <p>La base de données est FireBase aussi comme la gestion de l’authentification.</p>
 
-                <h5>Firebase, qu’est-ce que c’est ? </h5>
-                <p> En quelques mots, c’est une plateforme dédiée aux développeurs mobiles. Quand on évoque une plateforme, c’est un ensemble 
-                    d’outils à destination des développeurs.</p>
+                <br>
 
-                <p>Après avoir utilisé le kit de développement (SDK), les développeurs peuvent s’adosser aux infrastructures de Google
-                    pour collecter des statistiques sur les apps, mais aussi gérer l’envoi des notifications aux serveurs Google. 
-                    C’est ce que l’on appelait précédemment Google Cloud Messaging, qui portera désormais le nom de Firebase Cloud Messaging (FCM). 
-                    Disponible pour iOS, Android et le Web, FCM a été conçu pour envoyer 170 milliards de notifications par jour.</p>
+                <p>Technologies utilisées :</p>
+                <ul>
+                    <li>Html</li>
+                    <li>Bootstrap</li>
+                    <li>Jquery</li>
+                    <li>Ajax</li>
+                    <li>Php</li>
+                    <li>MySql </li>
+                </ul>
 
-                <h5>Les services de Firebase utilisés pour ce projet sont :</h5>
+                <br>
 
-                <p>Authentification : pour s’authentifier avec un email et mot de passe.<br>
-                    Database : stocke les données en forme de nœuds.</p>
+                <p>Pattern:</P>
+                <ul>
+                    <li>Mvc</li>
+                </ul>
 
-                <h5>Porquoi FireBase ?</h5> 
-                <p>La gestion d’authentification et le fait d’avoir des méthodes qui se déclenchent automatiquement dès que la base de données est modifiée m’ont aidé à prendre cette décision. De plus, la façon simple comme les données sont stockés c’est un atout pour ce projet.</p>
+                <br>
 
-                <p>Dans ce projet, j’ai utilisé Material Design.</p>
+                <p>IDE:</P>
+                <ul>
+                    <li>Netbeans</li>
+                </ul>
 
-                <h5>Qu’est-ce que le Material Design?</h5>
-                <p>Le Material Design est un ensemble de règles pour les interfaces graphiques des applications. Il a pour vocation d’unifier les interfaces.</p>
-                <p>Par l’utilisation du flat design et d’animations, Google a souhaité fluidifier la navigation en la rendant plus intuitive et surtout naturelle. 
-                    Des interfaces plus singulières, simples et surtout innovantes.</p>
+                <br>
 
-                <h4>Mon point de vue</h4>
+                <p>Serveur:</P>
+                <ul>
+                    <li>Xampp</li>
+                </ul>
 
-                <p>Ce Projet m'a fait découvrir le monde mobile, j'étais content pour avoir le temps et l'opportunité 
-                    de connaitre une plateforme complètement diffèrent. J'ai pu aussi découvrir qu’un bon 
-                    développeur sais comment chercher et appliquer l'information trouvé. Avec curiosité, 
-                    nous pouvons faire face l'inconnu et se plonger dans des domaines très intéressants
-                    qui pourront être un atout dans un moment de notre vie.
-                </p>               
+                <br>
+                <p>Deadline do projet : une semaine(Lundi-Vendredi).</p>
+                <br>
+                <p>Lors d’avoir reçu le sujet du projet, j’étais censé à développer la base de données et la valider avec le professeur.</p>
+                Une fois cette étape conclue, j’ai commencé le développement direct avec NetBeans.</p>
+                <p>J’ai commencé par la création de tournois, de suite les joueurs et à la fin les équipes et les gestions d’erreurs.</p>
+                <p>Après cette étape, j’ai rajouté les consultations des joueurs, des control en jQuery, et la soumission des scores des joueurs par Ajax.</p>
+                <p>A la fin le développement de la Consultation des scores par Jours de chaque équipe était fait.</p>
+
+                <p>Le projet contient une page route qu’est en chargé de directioner(redresser) correctement les demandes d’utilisateur.</p>
+                <p>Il y a un seul menu(header) et un seul footer, que sont utilisées dans toutes les pages pour refactoriser le code.</p>
+                <p>Il y a 4 Classes, 5 Contrôleur, 1 contrôleur Mère, 4 Contrôleurs enfants, 4 vue différents.</p> 
+
+
+                <br>
+                <h5> Mon point de Vue</h5>
+                <p>Ce projet a servi pour consolider mes connaissances au tant que développeur web. </p>
+                <p> Quelques difficultés on était rencontré tout au long du projet, notamment sur quelques requetés Sql, 
+                    mais j’ai pu trouver des solutions dans web qui mon permit d’apprendre et avancer sur le projet.</p>
             </div>
 
-        <div class=" row col-sm-12 justify-content-center" >
-            <div class="p-4 bg-white shadow-sm col-sm-8" style="
-                 line-height: 1.5;
-                 margin-bottom: 30px;
-                 margin-top: 0px;
-                 word-spacing: 0.15em;
-                 letter-spacing: 0.01em;
-                 color: #222222; 
-                 margin: 1em 0; 
-                 font-weight: normal; 
-                 font-family: 'ralewayregular' sans-serif;
-                 ">
+            <div class=" row col-sm-12 justify-content-center" >
+                <div class="p-4 bg-white shadow-sm col-sm-8" style="
+                     line-height: 1.5;
+                     margin-bottom: 30px;
+                     margin-top: 0px;
+                     word-spacing: 0.15em;
+                     letter-spacing: 0.01em;
+                     color: #222222; 
+                     margin: 1em 0; 
+                     font-weight: normal; 
+                     font-family: 'ralewayregular' sans-serif;
+                     ">
 
                     <div class="row justify-content-center bg-white col-lg-12">
 
-                        <div class="col-lg-4">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Login</div>
+                        <div class="col-lg-6">
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Création ou choix Tournoi</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center; ">
-                                <img src="../images/WhatsappLogin.png" class="rounded" alt="Logo Android"  width="100" height="200">
+                                <img id="myImg" src="../images/Creation_choix_Tournoi.png" class="rounded" alt="Logo Android"  width="100" height="200">
+                                
+                                <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
+                                
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Création Compte</div>
+                        <div class="col-lg-6">
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Creation ou choix Joueur</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/InterfaceCreationCompte.png" class="rounded" alt="Logo Android" >
+                                <img src="../images/Creation_choix_joueur.png" class="rounded" alt="Logo Android" >
+                               
+                                <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
                             </div>
                         </div>
-
-
-                        <div class="col-lg-4">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Tab Conversations</div>
-                            <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/tabConversations.png" class="rounded" alt="Logo Android">
-                            </div>
-                        </div>
-
                     </div>
                     <div class="row justify-content-center bg-white col-lg-12" style="margin-top:30px;">
 
-                        <div class="col-lg-4">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Tab Conversations</div>
+                        <div class="col-lg-6">
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Sasie Score</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/tabContacts.png" class="rounded" alt="Logo Android">
+                                <img src="../images/Saisir_pontuation_Tirage.png" class="rounded" alt="Logo Android">
+                                <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Rajouter Contact</div>
+                        <div class="col-lg-6">
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Verification des Score pas Joueur</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/RajouterContacts.png" class="rounded" alt="Logo Android">
+                                <img src="../images/Score.png" class="rounded" alt="Logo Android">
+                                <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Mensages</div>
-                            <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/Mensages.png" class="rounded" alt="Logo Android">
-                            </div>
-                        </div>
 
                     </div>
                 </div>
@@ -282,7 +396,28 @@ img {
             $(this).find('li.dropdown').removeClass('show open');
             $(this).find('ul.dropdown-menu').removeClass('show open');
         });
+        
+        var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+            modal.style.display = "none";
+        }
 
     });
 
-</s
+        </script>
+        
