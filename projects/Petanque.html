@@ -172,7 +172,7 @@
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                         <a class="nav-link  dropdown-item bg-dark" href="#">Plate-forme Gestion d'eleves</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Project banque Java (Jbdc et un autre avec Hibernate)</a>
-                        <a class="nav-link  dropdown-item bg-dark" >Apllication Mobile(Android)</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="Android.html">Apllication Mobile(Android)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Un Site</a>
                         <a class="nav-link  dropdown-item bg-dark" href="Secuserve.html">Secuserve</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Application web Gestion jeux Petanque</a>
@@ -317,13 +317,8 @@
                         <div class="col-lg-6">
                             <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Creation ou choix Joueur</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/Creation_choix_joueur.png" class="rounded" alt="Logo Android" >
+                                <img id="myImg" src="../images/Creation_choix_joueur.png" class="rounded" alt="Logo Android" >
                                
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption"></div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -332,24 +327,14 @@
                         <div class="col-lg-6">
                             <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Sasie Score</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/Saisir_pontuation_Tirage.png" class="rounded" alt="Logo Android">
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption"></div>
-                                </div>
+                                <img id="myImg" src="../images/Saisir_pontuation_Tirage.png" class="rounded" alt="Logo Android">
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Verification des Score pas Joueur</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img src="../images/Score.png" class="rounded" alt="Logo Android">
-                                <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption"></div>
-                                </div>
+                                <img id="myImg" src="../images/Score.png" class="rounded" alt="Logo Android">
                             </div>
                         </div>
 
@@ -400,14 +385,14 @@
         var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById('myImg');
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
+        
+            $('body').on('click','img',function(){
+                var modalImg = document.getElementById("img01");
+                var captionText = document.getElementById("caption");
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+        });
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
