@@ -12,7 +12,7 @@
         <script src="../api/jquery.easypiechart.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/style.css">
-        <title>Full Stack Conf</title>
+        <title>Portfolio Ruben Feiteira</title>
 
         <style>
             img {
@@ -171,11 +171,11 @@
                     </a>
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                         <a class="nav-link  dropdown-item bg-dark" href="GestionEleves.html">Plate-forme Gestion d'eleves</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="JavaBanque.html">Project banque Java (Jbdc et un autre avec Hibernate)</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="#">Project banque Java (Jbdc et un autre avec Hibernate)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="Android.html">Apllication Mobile(Android)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Un Site</a>
                         <a class="nav-link  dropdown-item bg-dark" href="Secuserve.html">Secuserve</a>
-                        <a class="nav-link  dropdown-item bg-dark" >Application web Gestion jeux Petanque</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="Petanque.html">Application web Gestion jeux Petanque</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Planner</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">TimeSheet</a>
                         <!--div class="dropdown-divider"></div-->
@@ -191,7 +191,7 @@
 
     <body class="bg-light">
         <div class="row col-sm-12 justify-content-center">
-            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:150px;">Projet Afip Jeux Petanque</div>
+            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:150px;">Projet Afip La Banque</div>
         </div>
 
         <div class=" row col-sm-12 justify-content-center" >
@@ -209,38 +209,34 @@
 
                 <div class=" row col-lg-12 " >
                     <div class="col-lg-11 ">
-                        <h4 class="card-title" style="margin-top: 25px">Petanque</h4>
+                        <h4 class="card-title" style="margin-top: 25px">La Banque</h4>
                     </div>
                     <div class="col-lg-1 ">
-                        <img src="../images/petanque.png" class="rounded" alt="Logo Petanque" style="height: 80px;width:100px;margin-left: -20px;">
+                        <img src="../images/Distribuiteur.png" class="rounded" alt="Distribuiteur" style="height: 90px;width:110px;margin-left: -30px;">
                     </div>
                 </div>
                 <hr>
                 
-                <p>Dans le Cadre de ma formation un projet web ça m'a ete donée pour evaluation. 
-                    Ce projet c’est basé sur un jeu très populaire français « La Pétanque «</p>
-
-                <p>Les exigences :</p>
+                
+                <p>Dans le cadre de ma formation, suite à 4 semaines de formation sur Java chez afip, 
+                    l’exercice d’évaluation proposé a été la production d’une application bancaire.</p>                
+                <p>Le projet consistait en:
                 <ul>
-                    <li>Créer des joueurs</li>
-                    <li>Créer des tournois</li>
-                    <li>Choisir les joueurs</li>
-                    <li>choisir les tournois crées</li>
-                    <li>Creer des équipes de 2 ou 3 joueurs.</li>
-                    <li>Consulter équipes formées </li>
-                    <li>Consulter au score</li>
-                </ul>
+                    <li>  Création d'utilisateur </li>
+                    <li>  Création des comptes courant et épargne avec un taux</li>
+                    <li>  Faire des crédit, débit et virement sur les différents comptes bancaires </li> 
+                    <li>  Saisir le Découvert bancaire autorisé lors de la création d'un compte courant</li>
+                </ul
+                
+                
 
                 <br>
 
                 <p>Technologies utilisées :</p>
                 <ul>
-                    <li>Html</li>
-                    <li>Bootstrap</li>
-                    <li>Jquery</li>
-                    <li>Ajax</li>
-                    <li>Php</li>
-                    <li>MySql </li>
+                    <li>Java</li>
+                    <li>MySql</li>
+                    <li>Hibernate</li>
                 </ul>
 
                 <br>
@@ -268,21 +264,23 @@
                 <p>Deadline do projet : une semaine(Lundi-Vendredi).</p>
                 <br>
                 <p>Lors d’avoir reçu le sujet du projet, j’étais censé à développer la base de données et la valider avec le professeur.</p>
-                Une fois cette étape conclue, j’ai commencé le développement direct avec NetBeans.</p>
-                <p>J’ai commencé par la création de tournois, de suite les joueurs et à la fin les équipes et les gestions d’erreurs.</p>
-                <p>Après cette étape, j’ai rajouté les consultations des joueurs, des control en jQuery, et la soumission des scores des joueurs par Ajax.</p>
-                <p>A la fin le développement de la Consultation des scores par Jours de chaque équipe était fait.</p>
+                <p>Une fois cette étape conclue, j’ai commencé le développement direct avec NetBeans.</p>
+                <p>La première chose que j'ai développé c'était des interfaces avec la bibliothèque Swing sur le mode design de NetBeans.</p>
+                <p>De suite j'ai développé la fonctionnalité "création des utilisateurs" et la possibilité de les modifier ainsi comme la création et modifications des comptes.</p>
+                <p>Pour finaliser j'ai développé la possibilité des réaliser des crédits, débits et virements entre les comptes.</p>
+                
 
-                <p>Le projet contient une page route qu’est en chargé de directioner(redresser) correctement les demandes d’utilisateur.</p>
-                <p>Il y a un seul menu(header) et un seul footer, que sont utilisées dans toutes les pages pour refactoriser le code.</p>
-                <p>Il y a 4 Classes, 5 Contrôleur, 1 contrôleur Mère, 4 Contrôleurs enfants, 4 vue différents.</p> 
 
 
                 <br>
                 <h5> Mon point de Vue</h5>
-                <p>Ce projet a servi pour consolider mes connaissances au tant que développeur web. </p>
-                <p> Quelques difficultés on était rencontré tout au long du projet, notamment sur quelques requetés Sql, 
-                    mais j’ai pu trouver des solutions dans web qui mon permit d’apprendre et avancer sur le projet.</p>
+                <p>Ce projet a servi pour consolider mes connaissances sur la programmation orienté objet que je venais d'apprendre sur le précèdent projet Gestion d'élèves.
+                    <br>
+                    Pour la première fois, j'ai utilisé un framework (Hibernate) pour effectuer la communication avec la base de données et faire générer mes classes.
+                    <br>
+                    Aussi pour la première fois, j'ai eu le plaisir de programmer en Java et reconnaitre 
+                    ça puissance et avantages au tant que langage orienté objet comme le fait de pouvoir développer pour différentes plateformes.                   
+                </p>
             </div>
 
             <div class=" row col-sm-12 justify-content-center" >
@@ -301,9 +299,9 @@
                     <div class="row justify-content-center bg-white col-lg-12">
 
                         <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Création ou choix Tournoi</div>
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Initial</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center; ">
-                                <img id="myImg" src="../images/Creation_choix_Tournoi.png" class="rounded" alt="Creation ou Choix Tournoi"  width="100" height="200">
+                                <img id="myImg" src="../images/InterfaceInitialBanque.png" class="rounded" alt="Fenêtre Initial"  width="100" height="200">
                                 
                                 <div id="myModal" class="modal">
                                     <span class="close">&times;</span>
@@ -315,9 +313,9 @@
                         </div>
 
                         <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Creation ou choix Joueur</div>
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Operations</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/Creation_choix_joueur.png" class="rounded" alt="Creation ou Choix des Joueurs" >
+                                <img id="myImg" src="../images/InterfaceOperations.png" class="rounded" alt="Fenêtre Operations" >
                                
                             </div>
                         </div>
@@ -325,20 +323,18 @@
                     <div class="row justify-content-center bg-white col-lg-12" style="margin-top:30px;">
 
                         <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Sasie Score</div>
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Informations Comptes</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/Saisir_pontuation_Tirage.png" class="rounded" alt="Saisir Score">
+                                <img id="myImg" src="../images/InterfaceInformationsComptes.png" class="rounded" alt="Fenêtre Informations Comptes">
                             </div>
                         </div>
 
                         <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Verification des Score pas Joueur</div>
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Mouvements</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/Score.png" class="rounded" alt="Verification des Score">
+                                <img id="myImg" src="../images/InterfaceMouvement.png" class="rounded" alt="Fenêtre Mouvements">
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -406,3 +402,5 @@
 
         </script>
         
+
+

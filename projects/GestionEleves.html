@@ -12,100 +12,100 @@
         <script src="../api/jquery.easypiechart.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/style.css">
-        <title>Full Stack Conf</title>
+        <title>Portfolio Ruben Feiteira</title>
 
         <style>
             img {
+                width: 100%;
+                height: auto;
+            }
+
+
+            #myImg {
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            #myImg:hover {opacity: 0.7;}
+
+            /* The Modal (background) */
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                padding-top: 100px; /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+            }
+
+            /* Modal Content (image) */
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 100%;
+                max-width: 1200px;
+            }
+
+            /* Caption of Modal Image */
+            #caption {
+                margin: auto;
+                display: block;
+                width: 100%;
+                max-width: 700px;
+                text-align: center;
+                color: #ccc;
+                padding: 10px 0;
+                height: 150px;
+            }
+
+            /* Add Animation */
+            .modal-content, #caption {    
+                -webkit-animation-name: zoom;
+                -webkit-animation-duration: 0.6s;
+                animation-name: zoom;
+                animation-duration: 0.6s;
+            }
+
+            @-webkit-keyframes zoom {
+                from {-webkit-transform:scale(0)} 
+                to {-webkit-transform:scale(1)}
+            }
+
+            @keyframes zoom {
+                from {transform:scale(0)} 
+                to {transform:scale(1)}
+            }
+
+            /* The Close Button */
+            .close {
+                position: absolute;
+                top: 55px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            /* 100% Image Width on Smaller Screens */
+            @media only screen and (max-width: 900px){
+                .modal-content {
                     width: 100%;
-                    height: auto;
                 }
-           
-
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 100%;
-    max-width: 1200px;
-}
-
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 100%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 55px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 900px){
-    .modal-content {
-        width: 100%;
-    }
-}
+            }
 
         </style>
     </head>
@@ -170,12 +170,12 @@
                         Mes réalisations
                     </a>
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        <a class="nav-link  dropdown-item bg-dark" href="GestionEleves.html">Plate-forme Gestion d'eleves</a>
+                        <a class="nav-link  dropdown-item bg-dark" >Plate-forme Gestion d'eleves</a>
                         <a class="nav-link  dropdown-item bg-dark" href="JavaBanque.html">Project banque Java (Jbdc et un autre avec Hibernate)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="Android.html">Apllication Mobile(Android)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Un Site</a>
                         <a class="nav-link  dropdown-item bg-dark" href="Secuserve.html">Secuserve</a>
-                        <a class="nav-link  dropdown-item bg-dark" >Application web Gestion jeux Petanque</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="#">Application web Gestion jeux Petanque</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">Planner</a>
                         <a class="nav-link  dropdown-item bg-dark" href="#">TimeSheet</a>
                         <!--div class="dropdown-divider"></div-->
@@ -191,7 +191,7 @@
 
     <body class="bg-light">
         <div class="row col-sm-12 justify-content-center">
-            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:150px;">Projet Afip Jeux Petanque</div>
+            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:150px;">Projet Afip web Gestion des Elèves</div>
         </div>
 
         <div class=" row col-sm-12 justify-content-center" >
@@ -209,27 +209,28 @@
 
                 <div class=" row col-lg-12 " >
                     <div class="col-lg-11 ">
-                        <h4 class="card-title" style="margin-top: 25px">Petanque</h4>
+                        <h4 class="card-title" style="margin-top: 25px">Gestion des Elèves</h4>
                     </div>
                     <div class="col-lg-1 ">
-                        <img src="../images/petanque.png" class="rounded" alt="Logo Petanque" style="height: 80px;width:100px;margin-left: -20px;">
+                        <img src="../images/GestionEleves.png" class="rounded" alt="Logo Petanque" style="height: 90px;width:110px;margin-left: -30px;">
                     </div>
                 </div>
                 <hr>
-                
-                <p>Dans le Cadre de ma formation un projet web ça m'a ete donée pour evaluation. 
-                    Ce projet c’est basé sur un jeu très populaire français « La Pétanque «</p>
 
-                <p>Les exigences :</p>
-                <ul>
-                    <li>Créer des joueurs</li>
-                    <li>Créer des tournois</li>
-                    <li>Choisir les joueurs</li>
-                    <li>choisir les tournois crées</li>
-                    <li>Creer des équipes de 2 ou 3 joueurs.</li>
-                    <li>Consulter équipes formées </li>
-                    <li>Consulter au score</li>
+                <p>Dans le cadre de ma formation, suite à 4 semaines de formation sur Php5, MySql, programmation orienté objet, Pattern Mvc, l’exercice d’évaluation proposé a été la production d’un site de gestion des élèves. </p>
+                <p> Le déroulement de l’exercice était de quatre heures pour la production de l’interface graphique, les diagramme mcd et mld pour la base de données et le reste de la semaine pour le finaliser.
+                    Je devais recréer un site de gestion des élèves et l’interface de gestion demandée, le site étant découpé en 3 pages de gestion : ajout, suppression, modification.</p>
+
+
+
+                <p>Actions effectuées pour l’interface utilisateur :</p>
+                <ul>	
+                    <li>Formulaire d'insertion d'un élève à une formation.</li>
+                    <li>Création de possibilité de choix du professeur en fonction de la formation choisie.</li>
+                    <li>Création d'une page dynamique de modification des stagiaires, de leur formation, gestion du planning des professeurs, et date de formation.</li>
+                    <li>Création d'une page de suppression de l'étudiant ou d'un cours enregistré.</li>
                 </ul>
+
 
                 <br>
 
@@ -237,8 +238,7 @@
                 <ul>
                     <li>Html</li>
                     <li>Bootstrap</li>
-                    <li>Jquery</li>
-                    <li>Ajax</li>
+                    <li>JavaScript</li>
                     <li>Php</li>
                     <li>MySql </li>
                 </ul>
@@ -269,20 +269,16 @@
                 <br>
                 <p>Lors d’avoir reçu le sujet du projet, j’étais censé à développer la base de données et la valider avec le professeur.</p>
                 Une fois cette étape conclue, j’ai commencé le développement direct avec NetBeans.</p>
-                <p>J’ai commencé par la création de tournois, de suite les joueurs et à la fin les équipes et les gestions d’erreurs.</p>
-                <p>Après cette étape, j’ai rajouté les consultations des joueurs, des control en jQuery, et la soumission des scores des joueurs par Ajax.</p>
-                <p>A la fin le développement de la Consultation des scores par Jours de chaque équipe était fait.</p>
-
-                <p>Le projet contient une page route qu’est en chargé de directioner(redresser) correctement les demandes d’utilisateur.</p>
-                <p>Il y a un seul menu(header) et un seul footer, que sont utilisées dans toutes les pages pour refactoriser le code.</p>
-                <p>Il y a 4 Classes, 5 Contrôleur, 1 contrôleur Mère, 4 Contrôleurs enfants, 4 vue différents.</p> 
-
+                <p>J’ai commencé par la création d'Insertion, de suite la modification et finalement la suppression. <p>
+                <p>Finie la partie html, Php, j’ai grisé des champs selon le cours choisit avec Javascript.</p>
+                <p>Pour finaliser, j'ai rajouté les contrôles de données saisies afficher les erreurs à l'utilisateur. </p>
 
                 <br>
                 <h5> Mon point de Vue</h5>
-                <p>Ce projet a servi pour consolider mes connaissances au tant que développeur web. </p>
-                <p> Quelques difficultés on était rencontré tout au long du projet, notamment sur quelques requetés Sql, 
-                    mais j’ai pu trouver des solutions dans web qui mon permit d’apprendre et avancer sur le projet.</p>
+                <p>Ce projet a eu une énorme importance pour moi car c'était mon premier projet web, orienté objet et avec une base de données.  
+                    Plusieurs difficultés on était rencontré tout au long du projet, notamment l'implémentation de la programmation orienté objet, le développement avec JavaScript et quelques problèmes avec la base de données MySql.</p>
+                <p>Avec beaucoup de motivation et effort, j'ai reussi à faire face aux problemes rencontrés et certains avec l'aide de quelques sites sur l'internet.</p>
+                <p>Pour conclure, ce projet à servi à comprendre mieux le mode de programmer pour le web et à acquérir de l'expérience sur la programmation orienté objet</p>
             </div>
 
             <div class=" row col-sm-12 justify-content-center" >
@@ -299,49 +295,34 @@
                      ">
 
                     <div class="row justify-content-center bg-white col-lg-12">
-
-                        <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Création ou choix Tournoi</div>
+                        <div class="col-lg-4">
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Insertion des Elèves</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center; ">
-                                <img id="myImg" src="../images/Creation_choix_Tournoi.png" class="rounded" alt="Creation ou Choix Tournoi"  width="100" height="200">
-                                
+                                <img id="myImg" src="../images/InsertionEleves.png" class="rounded" alt="Insertion des Elèves"  width="100" height="200">
                                 <div id="myModal" class="modal">
                                     <span class="close">&times;</span>
                                     <img class="modal-content" id="img01">
                                     <div id="caption"></div>
                                 </div>
-                                
+
                             </div>
                         </div>
-
-                        <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Creation ou choix Joueur</div>
+                        <div class="col-lg-4">
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Modification des Elèves</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/Creation_choix_joueur.png" class="rounded" alt="Creation ou Choix des Joueurs" >
-                               
+                                <img id="myImg" src="../images/ModificationsEleves.png" class="rounded" alt="Modification des Elèves" >
                             </div>
                         </div>
-                    </div>
-                    <div class="row justify-content-center bg-white col-lg-12" style="margin-top:30px;">
-
-                        <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Sasie Score</div>
+                        <div class="col-lg-4">
+                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Suppression des Elèves</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/Saisir_pontuation_Tirage.png" class="rounded" alt="Saisir Score">
+                                <img id="myImg" src="../images/SuppressionEleves.png" class="rounded" alt="Suppression des Elèves">
                             </div>
                         </div>
-
-                        <div class="col-lg-6">
-                            <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Verification des Score pas Joueur</div>
-                            <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/Score.png" class="rounded" alt="Verification des Score">
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
             </div>
+            
         </div>
 
 
@@ -381,28 +362,29 @@
             $(this).find('li.dropdown').removeClass('show open');
             $(this).find('ul.dropdown-menu').removeClass('show open');
         });
-        
+
         var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-        
-            $('body').on('click','img',function(){
-                var modalImg = document.getElementById("img01");
-                var captionText = document.getElementById("caption");
-                modal.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
+
+        $('body').on('click', 'img', function () {
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
         });
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
 
         // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
+        span.onclick = function () {
             modal.style.display = "none";
         }
 
     });
 
-        </script>
-        
+</script>
+
+
