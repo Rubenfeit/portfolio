@@ -12,7 +12,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
-        <title>Full Stack Conf</title>
+        <title>Portfolio Ruben Feiteira</title>
 
         <style>
 
@@ -74,8 +74,25 @@
                                 <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&langues">Langues</a></li>
                             </ul>
                         </li>
+                        
                         <li class="dropdown-item dropdown ">
-                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétances Humaines</a>
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Humaines</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Autonomie">Autonomie</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Communication">Communication</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Diplomatie">Diplomatie</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Organisation">Organisation</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Rigueur">Rigueur</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Travail en équipe">Travail en équipe</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Créativité">Créativité</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Engagement">Engagement</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <!--li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">compétences Humaines</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
                                 <li class="dropdown-item text-white" href="#"><a>Action 1.1</a></li>
                                 <li class="dropdown-item dropdown">
@@ -85,7 +102,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
+                        </li-->
 
 
                     </ul>
@@ -117,11 +134,11 @@
                         <a class="nav-link  dropdown-item bg-dark" href="projects/GestionEleves.html">Site web Gestion d'eleves(Php)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="projects/JavaBanque.html">La Banque(Java)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="projects/Android.html">Apllication Mobile(Android)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="#">Site Web</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="projects/Site.html">Site Web</a>
                         <a class="nav-link  dropdown-item bg-dark" href="projects/Secuserve.html">Plateforme Secuserve(Php)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="projects/Petanque.html">Site web Jeu Pétanque(Php)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="#">GFI Planner(c#)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="#">GFI TimeSheet(c#)</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="projects/Planner.html">GFI Planner(c#)</a>
+                        <a class="nav-link  dropdown-item bg-dark" href="projects/Timesheet.html">GFI TimeSheet(c#)</a>
                         <!--div class="dropdown-divider"></div--> 
 
                     </div>
@@ -189,11 +206,21 @@
                 <hr>
 
 
-                <p>Bienvenue sur mon portfolio ! Je m’appelle Ruben Feiteira, j’ai 29 ans et je possède un diplôme de Concepteur Developpeur Ingotmatique, obtenu dans l’école supérieure privée d'informatique (Afip). J’ai créé ce portfolio afin de vous offrir une vision détaillée de mon parcours, mes compétences ainsi que de mes réalisations.</p>
+                <p>Bienvenue sur mon portfolio ! Je m’appelle Ruben Feiteira, 
+                    j’ai 29 ans et je possède un diplôme de Concepteur Developpeur Ingotmatique,
+                    obtenu dans l’école supérieure privée d'informatique (Afip). 
+                    J’ai créé ce portfolio afin de vous offrir une vision détaillée de
+                    mon parcours, mes compétences ainsi que de mes réalisations.</p>
 
-                <p>Passionné par les nouvelles technologies depuis mon plus jeune âge, j’ai décidé de poursuivre l’informatique dans cette voie dés que j'ai eu opportunité,  en pratiquant dans ma vie professionnelle. Mon parcours m’a permis de développer des compétences que je peux appliquer dans l'informatique. Atravers l'informatique je peux aider l'humanité à ce developper et ce concentrer dans l'essential de leur vie et faire avancer le monde.</p>
+                <p>Passionné par les nouvelles technologies depuis mon plus jeune âge,
+                    j’ai décidé de poursuivre l’informatique dans cette voie dés que j'ai eu opportunité,  
+                    en pratiquant dans ma vie professionnelle. Mon parcours m’a permis 
+                    de développer des compétences que je peux appliquer dans l'informatique. 
+                    Atravers l'informatique je peux aider l'humanité à ce developper 
+                    et ce concentrer dans l'essential de leur vie et faire avancer le monde.</p>
 
-                <p>Aujourd’hui, je suis dans le milieu professionnel, avec l’envie de développer mon expérience, mes compétences, et d’explorer les nouvelles tendances du monde de l’informatique.
+                <p>Aujourd’hui, je suis dans le milieu professionnel, avec l’envie de développer mon expérience,
+                    mes compétences, et d’explorer les nouvelles tendances du monde de l’informatique.
                     Bonne visite !</p>
             </div>
         </div>
