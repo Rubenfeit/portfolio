@@ -4,7 +4,6 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -13,119 +12,20 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/style.css">
         <title>Portfolio Ruben Feiteira</title>
-
-        <style>
-            img {
-                    width: 100%;
-                    height: auto;
-                }
-           
-
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 100%;
-    max-width: 1200px;
-}
-
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 100%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 55px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 900px){
-    .modal-content {
-        width: 100%;
-    }
-}
-
-        </style>
     </head>
-
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="../Index.php">Ruben Feiteira</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
             <ul class="navbar-nav">
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="../experiences/experiences.html">Mes Expériences</a>
                 </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes compétances</a>
                     <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1">
-                        <!--li class="dropdown-item text-white" href="#"><a>Action 1</a></li-->
                         <li class="dropdown-item dropdown ">
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétances Téchniques</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
@@ -164,7 +64,6 @@
                         </li>
                     </ul>
                 </li>
-
                 <li class="nav-item  dropdown mx-3">
                     <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Mes réalisations
@@ -178,8 +77,6 @@
                         <a class="nav-link  dropdown-item bg-dark" href="Petanque.html">Site web Jeu Pétanque(Php)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="Planner.html">GFI Planner(c#)</a>
                         <a class="nav-link  dropdown-item bg-dark" href="Timesheet.html">GFI TimeSheet(c#)</a>
-                        <!--div class="dropdown-divider"></div-->
-
                     </div>
                 </li>
                 <li class="nav-item mx-3">
@@ -189,24 +86,12 @@
         </div>
     </nav>
 
-    <body class="bg-light">
+    <body>
         <div class="row col-sm-12 justify-content-center">
             <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:150px;">Projet Afip La Banque</div>
         </div>
-
         <div class=" row col-sm-12 justify-content-center" >
-            <div class="p-4 bg-white shadow-sm col-sm-7" style="
-                 line-height: 1.5;
-                 margin-bottom: 30px;
-                 margin-top: 0px;
-                 word-spacing: 0.15em;
-                 letter-spacing: 0.01em;
-                 color: #222222; 
-                 margin: 1em 0; 
-                 font-weight: normal; 
-                 font-family: 'ralewayregular' sans-serif;
-                 ">
-
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
                 <div class=" row col-lg-12 " >
                     <div class="col-lg-11 ">
                         <h4 class="card-title" style="margin-top: 25px">La Banque</h4>
@@ -216,19 +101,16 @@
                     </div>
                 </div>
                 <hr>
-                
-                
+
                 <p>Dans le cadre de ma formation, suite à 4 semaines de formation sur Java chez afip, 
                     l’exercice d’évaluation proposé a été la production d’une application bancaire.</p>                
-                <p>Le projet consistait en:
+                <p>Le projet consistait en:</p>
                 <ul>
                     <li>  Création d'utilisateur </li>
                     <li>  Création des comptes courant et épargne avec un taux</li>
                     <li>  Faire des crédit, débit et virement sur les différents comptes bancaires </li> 
                     <li>  Saisir le Découvert bancaire autorisé lors de la création d'un compte courant</li>
                 </ul
-                
-                
 
                 <br>
 
@@ -268,9 +150,6 @@
                 <p>La première chose que j'ai développé c'était des interfaces avec la bibliothèque Swing sur le mode design de NetBeans.</p>
                 <p>De suite j'ai développé la fonctionnalité "création des utilisateurs" et la possibilité de les modifier ainsi comme la création et modifications des comptes.</p>
                 <p>Pour finaliser j'ai développé la possibilité des réaliser des crédits, débits et virements entre les comptes.</p>
-                
-
-
 
                 <br>
                 <h5> Mon point de Vue</h5>
@@ -282,125 +161,101 @@
                     ça puissance et avantages au tant que langage orienté objet comme le fait de pouvoir développer pour différentes plateformes.                   
                 </p>
             </div>
-
             <div class=" row col-sm-12 justify-content-center" >
-                <div class="p-4 bg-white shadow-sm col-sm-8" style="
-                     line-height: 1.5;
-                     margin-bottom: 30px;
-                     margin-top: 0px;
-                     word-spacing: 0.15em;
-                     letter-spacing: 0.01em;
-                     color: #222222; 
-                     margin: 1em 0; 
-                     font-weight: normal; 
-                     font-family: 'ralewayregular' sans-serif;
-                     ">
-
+                <div class="p-4 bg-white shadow-sm col-sm-8 letra">
                     <div class="row justify-content-center bg-white col-lg-12">
-
                         <div class="col-lg-6">
                             <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Initial</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center; ">
-                                <img id="myImg" src="../images/InterfaceInitialBanque.png" class="rounded" alt="Fenêtre Initial"  width="100" height="200">
-                                
+                                <img id="myImg" src="../images/InterfaceInitialBanque.png" class="rounded img" alt="Fenêtre Initial"  width="100" height="200">                             
                                 <div id="myModal" class="modal">
                                     <span class="close">&times;</span>
                                     <img class="modal-content" id="img01">
                                     <div id="caption"></div>
-                                </div>
-                                
+                                </div>                          
                             </div>
                         </div>
-
                         <div class="col-lg-6">
                             <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Operations</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/InterfaceOperations.png" class="rounded" alt="Fenêtre Operations" >
-                               
+                                <img id="myImg" src="../images/InterfaceOperations.png" class="rounded img" alt="Fenêtre Operations" >                               
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center bg-white col-lg-12" style="margin-top:30px;">
-
                         <div class="col-lg-6">
                             <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Informations Comptes</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/InterfaceInformationsComptes.png" class="rounded" alt="Fenêtre Informations Comptes">
+                                <img id="myImg" src="../images/InterfaceInformationsComptes.png" class="rounded img" alt="Fenêtre Informations Comptes">
                             </div>
                         </div>
-
                         <div class="col-lg-6">
                             <div class="card-header bg-primary text-white text-center"  style="border: 1px solid #17a2b8;margin-top:10px;">Fenêtre Mouvements</div>
                             <div class="p-3 shadow-lg " style="margin-top: 20px; text-align: center;  ">
-                                <img id="myImg" src="../images/InterfaceMouvement.png" class="rounded" alt="Fenêtre Mouvements">
+                                <img id="myImg" src="../images/InterfaceMouvement.png" class="rounded img" alt="Fenêtre Mouvements">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <footer class="page-footer font-small blue">
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            </div>
+        </footer>
 
 
+        <script type="text/javascript">
+            $(document).ready(function () {
 
-    </body>
-</html><footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-</footer>
+                $('.navbar .dropdown-item').on('mouseenter', function (e) {
+                    var $el = $(this).children('.dropdown-toggle');
+                    var $parent = $el.offsetParent(".dropdown-menu");
+                    $(this).parent("li").toggleClass('open');
 
-<script type="text/javascript">
-    $(document).ready(function () {
+                    if (!$parent.parent().hasClass('navbar-nav')) {
+                        if ($parent.hasClass('show')) {
+                            $parent.removeClass('show');
+                            $el.next().removeClass('show');
+                            $el.next().css({"top": -999, "left": -999});
+                        } else {
+                            $parent.parent().find('.show').removeClass('show');
+                            $parent.addClass('show');
+                            $el.next().addClass('show');
+                            $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+                        }
+                        e.preventDefault();
+                        e.stopPropagation();
+                    }
+                });
 
-        $('.navbar .dropdown-item').on('mouseenter', function (e) {
-            var $el = $(this).children('.dropdown-toggle');
-            var $parent = $el.offsetParent(".dropdown-menu");
-            $(this).parent("li").toggleClass('open');
+                $('.navbar .dropdown').on('hidden.bs.dropdown', function () {
+                    $(this).find('li.dropdown').removeClass('show open');
+                    $(this).find('ul.dropdown-menu').removeClass('show open');
+                });
 
-            if (!$parent.parent().hasClass('navbar-nav')) {
-                if ($parent.hasClass('show')) {
-                    $parent.removeClass('show');
-                    $el.next().removeClass('show');
-                    $el.next().css({"top": -999, "left": -999});
-                } else {
-                    $parent.parent().find('.show').removeClass('show');
-                    $parent.addClass('show');
-                    $el.next().addClass('show');
-                    $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+                var modal = document.getElementById('myModal');
+
+                // Get the image and insert it inside the modal - use its "alt" text as a caption
+
+                $('body').on('click', '.img', function () {
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                });
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
                 }
-                e.preventDefault();
-                e.stopPropagation();
-            }
-        });
-
-        $('.navbar .dropdown').on('hidden.bs.dropdown', function () {
-            $(this).find('li.dropdown').removeClass('show open');
-            $(this).find('ul.dropdown-menu').removeClass('show open');
-        });
-        
-        var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-        
-            $('body').on('click','img',function(){
-                var modalImg = document.getElementById("img01");
-                var captionText = document.getElementById("caption");
-                modal.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
-        });
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-            modal.style.display = "none";
-        }
-
-    });
-
+            });
         </script>
-        
-
+    </body>
+</html>
 
