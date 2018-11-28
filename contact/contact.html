@@ -170,18 +170,16 @@
                     var name = $("#nombre").val();
                     var email = $("#mail").val();
                     var message = $("#message").val();
-                    var dataString = [{"name": name, "email": email, "message": message}];
+                    var dataString = {"name": name, "email": email, "message": message};
+                    
+                    console.log(dataString);
 
                     $.ajax({
                         type: "POST",
                         url: "mail.php",
-                        data: JSON.stringify({DataString: dataString}),
-                        contentType: "application/json; charset=utf-8",
-                        dataType: "json",
-                        success: function (response) {
-                            if (response == true)
-                                $('.success').fadeIn(1000);
-                        }
+                        data: dataString,
+                    }).done(() => {
+                        $('.success').fadeIn(1000);
                     });
                     return false;
                 });
