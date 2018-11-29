@@ -11,12 +11,13 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="api/jquery.easypiechart.js"></script>
         <link rel="stylesheet" href="css/style.css">
         <title>Portfolio Ruben Feiteira</title>
     </head>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="./Index.php">Ruben Feiteira</a>
+        <a class="navbar-brand" href="./Index.php">Accueil</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +25,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
             <ul class="navbar-nav">
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="experiences/experiences.html">Mes Expériences</a>
+                    <a class="nav-link" href="experiences/experiences.html">Mon Parcours</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes compétances</a>
@@ -46,15 +47,17 @@
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Professionnelles </a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
                                 <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&analyser">Analyser</a></li>
-                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&gestionDeProjet">Gestion de projet</a></li>
-                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&algorithme">Algorithme</a></li>
-                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&langues">Langues</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&algorithme">Conception</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&langues">Développement</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&gestionDeProjet">Gestion de projet</a></li> 
                             </ul>
                         </li>                        
                         <li class="dropdown-item dropdown ">
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Humaines</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
                                 <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Autonomie">Autonomie</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Curieux">Curieux</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Perspicace">Perspicace</a></li>
                                 <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Communication">Communication</a></li>
                                 <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Diplomatie">Diplomatie</a></li>
                                 <li class="dropdown-item text-white"><a href="skills/HumanSkills.html?id=&Organisation">Organisation</a></li>
@@ -138,38 +141,37 @@
             </div>
         </div>
         <div class="row col-sm-12 justify-content-center">
-            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:60px;">Comment suis je?</div>
+            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:60px;">Centre d’intérêts</div>
         </div>
         <div class="row col-sm-12 justify-content-center" style="margin-top: 10px;">
             <div class="p-5 bg-white shadow-sm col-sm-7 letra">
 
                 <div class="row justify-content-center bg-white col-lg-12">                    
                     <div class="col-lg-4">
-                        <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Passioné pour la vie</div>
+                        <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Sport</div>
                         <div class="p-2 shadow-lg" style="margin-top: 20px;">
-                            <h4>Loving life</h4>
-                            <hr>
-                            <p>nous avons qu'une seul vie, il faut, il faut profiter de chaque jout à fond.</p>
+                            <h4>BodyBoard</h4>
+                              <hr>
+                            <h4>Salon de sport</h4>
+                          
                         </div>
                     </div>                   
                     <div class="col-lg-4">
-                        <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Complet</div>
+                        <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Filmes</div>
                         <div class="p-2  shadow-lg" style="margin-top: 20px;">
-                            <h4>From A to Z</h4>
-                            <hr>
-                            <p>J'ai une vie professional et personelle (marie, chien, bodyboard, music, et je suis épanoui en tous ce que fait.</p>
+                            <h4>Science-Fiction</h4>
                         </div>
                     </div>                    
                     <div class="col-lg-4">
-                        <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Curieux</div>
+                        <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Musique</div>
                         <div class="p-2  shadow-lg" style="margin-top: 20px;">
-                            <h4>Why?</h4>
+                            <h4>Gospel</h4>
                             <hr>
-                            <p>Il y a une certaine mystique dans l'inconnue qui nous amene a decouvrir pourquoi ça fonctionne de tel façon. c'est le significat de la vie, la decouverte</p>
+                            <h4>Jazz</h4>
                         </div>
                     </div>                   
                 </div>
-                <div class="row justify-content-center bg-white col-lg-12" style="margin-top:30px;">                   
+                <!--div class="row justify-content-center bg-white col-lg-12" style="margin-top:30px;">                   
                     <div class="col-lg-4">
                         <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Reveur Realiste</div>
                         <div class="p-2  shadow-lg" style="margin-top: 20px;">
@@ -194,9 +196,126 @@
                             <p>Parce qu’apprendre pour soit même et mettre en pratique c'est motivant et un régale.</p>
                         </div>
                     </div>
+                </div-->
+            </div>
+        </div>
+        
+                <div class="row col-sm-12 justify-content-center">
+
+            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:80px;" id="langues">Langues </div>
+        </div>
+        <div class=" row col-sm-12 justify-content-center" >
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
+                <h4 class="card-title">Anglais</h4>
+                <hr>
+                <div class="row row-centered bg-white col-lg-12" style="
+                     padding-left: 0px;
+                     margin-right: 0px;
+                     padding-right: 0px;
+                     margin-left: 0px;
+                     ">
+                    <div class="col-lg-4 col-centered">
+                        <div class="container" >   			
+                            <div class="box" >
+                                <div class="chart" data-percent="80">80%</div>
+                                <h3>Comprehension</h3>		
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-centered">
+                        <div class="container">   			
+                            <div class="box">
+                                <div class="chart" data-percent="70">70%</div>		
+                                <h3>Parlé</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-centered">
+                        <div class="container">   			
+                            <div class="box">
+                                <div class="chart" data-percent="70">70%</div>
+                                <h3>Ecrit</h3>		
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class=" row col-sm-12 justify-content-center" >
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
+                <h4 class="card-title">Portugais</h4>
+                <hr>
+                <div class="row bg-white col-lg-12" style="
+                     padding-left: 0px;
+                     margin-right: 0px;
+                     padding-right: 0px;
+                     margin-left: 0px;
+                     ">
+                    <div class="col-lg-4 ">
+                        <div class="container" >   			
+                            <div class="box" >
+                                <div class="chart" data-percent="100">100%</div>
+                                <h3>Comprehension</h3>		
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="container">   			
+                            <div class="box">
+                                <div class="chart" data-percent="100">100%</div>		
+                                <h3>Parlé</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="container">   			
+                            <div class="box">
+                                <div class="chart" data-percent="100">100%</div>
+                                <h3>Ecrit</h3>		
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row col-sm-12 justify-content-center" >
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
+                <h4 class="card-title">Français</h4>
+                <hr>
+                <div class="row bg-white col-lg-12" style="
+                     padding-left: 0px;
+                     margin-right: 0px;
+                     padding-right: 0px;
+                     margin-left: 0px;
+                     ">
+                    <div class="col-lg-4 ">
+                        <div class="container" >   			
+                            <div class="box" >
+                                <div class="chart" data-percent="80">90%</div>
+                                <h3>Comprehension</h3>		
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="container">   			
+                            <div class="box">
+                                <div class="chart" data-percent="70">90%</div>		
+                                <h3>Parlé</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="container">   			
+                            <div class="box">
+                                <div class="chart" data-percent="80">80%</div>
+                                <h3>Ecrit</h3>		
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
 
 <footer class="page-footer font-small blue">
@@ -233,6 +352,17 @@
             $(this).find('li.dropdown').removeClass('show open');
             $(this).find('ul.dropdown-menu').removeClass('show open');
         });
+        
+        $(".chart").easyPieChart({ 
+           size: 130,
+           barColor: '#17a2b8', //17d3e6
+           scaleColor: false,
+           lineWidth: 12,
+           trackColor: '373737',
+           lineCap: 'Circle',
+           animate: 3000
+
+       });
 
     });
 

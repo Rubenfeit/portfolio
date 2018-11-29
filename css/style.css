@@ -179,3 +179,8 @@ body {
         width: 100%;
     }
 }
+
+nav li a{
+   display: inline-block;
+   width: 100%;
+}
