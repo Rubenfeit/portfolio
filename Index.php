@@ -69,18 +69,32 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item  dropdown mx-3">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes réalisations</a>
-                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/GestionEleves.html">Site web Gestion d'eleves(Php)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/JavaBanque.html">La Banque(Java)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/Android.html">Apllication Mobile(Android)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/Site.html">Site Web</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/Secuserve.html">Plateforme Secuserve(Php)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/Petanque.html">Site web Jeu Pétanque(Php)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/Planner.html">GFI Planner(c#)</a>
-                        <a class="nav-link  dropdown-item bg-dark" href="projects/Timesheet.html">GFI TimeSheet(c#)</a>
-                    </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes réalisations</a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1">
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Web</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="projects/GestionEleves.html">Site web Gestion d'eleves(Php)</a></li>
+                                <li class="dropdown-item text-white"><a href="projects/Secuserve.html">Plateforme Secuserve(Php)</a></li>
+                                <li class="dropdown-item text-white"><a href="projects/Petanque.html">Site web Jeu Pétanque(Php)</a></li>
+                                <li class="dropdown-item text-white"><a href="projects/Planner.html">GFI Planner(c#)</a></li>
+                                <li class="dropdown-item text-white"><a href="projects/Timesheet.html">GFI TimeSheet(c#)</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Mobile </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="projects/Android.html">Apllication Mobile(Android)</a></li>
+                            </ul>
+                        </li>                        
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Client Lourd</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="projects/JavaBanque.html">La Banque(Java)</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="contact/contact.html"> Me Contacter </a>
@@ -151,9 +165,9 @@
                         <div class="card-header bg-primary text-white text-center "  style="border: 1px solid #17a2b8;margin-top:10px;">Sport</div>
                         <div class="p-2 shadow-lg" style="margin-top: 20px;">
                             <h4>BodyBoard</h4>
-                              <hr>
+                            <hr>
                             <h4>Salon de sport</h4>
-                          
+
                         </div>
                     </div>                   
                     <div class="col-lg-4">
@@ -199,8 +213,8 @@
                 </div-->
             </div>
         </div>
-        
-                <div class="row col-sm-12 justify-content-center">
+
+        <div class="row col-sm-12 justify-content-center">
 
             <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:80px;" id="langues">Langues </div>
         </div>
@@ -315,55 +329,55 @@
                 </div>
             </div>
         </div>
-        
+
     </body>
 
-<footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-</footer>
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+    </footer>
 
-<script type="text/javascript">
-    $(document).ready(function () {
+    <script type="text/javascript">
+        $(document).ready(function () {
 
-        $('.navbar .dropdown-item').on('mouseenter', function (e) {
-            var $el = $(this).children('.dropdown-toggle');
-            var $parent = $el.offsetParent(".dropdown-menu");
-            $(this).parent("li").toggleClass('open');
+            $('.navbar .dropdown-item').on('mouseenter', function (e) {
+                var $el = $(this).children('.dropdown-toggle');
+                var $parent = $el.offsetParent(".dropdown-menu");
+                $(this).parent("li").toggleClass('open');
 
-            if (!$parent.parent().hasClass('navbar-nav')) {
-                if ($parent.hasClass('show')) {
-                    $parent.removeClass('show');
-                    $el.next().removeClass('show');
-                    $el.next().css({"top": -999, "left": -999});
-                } else {
-                    $parent.parent().find('.show').removeClass('show');
-                    $parent.addClass('show');
-                    $el.next().addClass('show');
-                    $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+                if (!$parent.parent().hasClass('navbar-nav')) {
+                    if ($parent.hasClass('show')) {
+                        $parent.removeClass('show');
+                        $el.next().removeClass('show');
+                        $el.next().css({"top": -999, "left": -999});
+                    } else {
+                        $parent.parent().find('.show').removeClass('show');
+                        $parent.addClass('show');
+                        $el.next().addClass('show');
+                        $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+                    }
+                    e.preventDefault();
+                    e.stopPropagation();
                 }
-                e.preventDefault();
-                e.stopPropagation();
-            }
+            });
+
+            $('.navbar .dropdown').on('hidden.bs.dropdown', function () {
+                $(this).find('li.dropdown').removeClass('show open');
+                $(this).find('ul.dropdown-menu').removeClass('show open');
+            });
+
+            $(".chart").easyPieChart({
+                size: 130,
+                barColor: '#17a2b8', //17d3e6
+                scaleColor: false,
+                lineWidth: 12,
+                trackColor: '373737',
+                lineCap: 'Circle',
+                animate: 3000
+
+            });
+
         });
 
-        $('.navbar .dropdown').on('hidden.bs.dropdown', function () {
-            $(this).find('li.dropdown').removeClass('show open');
-            $(this).find('ul.dropdown-menu').removeClass('show open');
-        });
-        
-        $(".chart").easyPieChart({ 
-           size: 130,
-           barColor: '#17a2b8', //17d3e6
-           scaleColor: false,
-           lineWidth: 12,
-           trackColor: '373737',
-           lineCap: 'Circle',
-           animate: 3000
-
-       });
-
-    });
-
-</script>
+    </script>

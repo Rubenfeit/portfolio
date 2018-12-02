@@ -1,16 +1,281 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/ilbs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="../api/jquery.easypiechart.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Portfolio Ruben Feiteira</title>
+
     </head>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="../Index.php">Accueil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="../experiences/experiences.html">Mon Parcours</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes compétances</a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1">
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétances Téchniques</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&frontend">Front-End</a></li>
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&backend">Back-End</a></li>
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&basesdedonnes">Bases de Données</a></li>
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&frameworks">Frameworks Base de Données</a></li>
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&web">Web Technologies</a></li>
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&mobile">Mobile Technologies</a></li>
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&Uml">UML</a></li>
+                                <li class="dropdown-item text-white"><a href="technicalSkills.html?id=&autres">Autres Valances</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Professionnelles </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a class="GoDown" id="#analyser">Analyser</a></li>
+                                <li class="dropdown-item text-white"><a class="GoDown" id="#gestionDeProjet">Gestion de projet</a></li>
+                                <li class="dropdown-item text-white"><a class="GoDown" id="#algorithme">Algorithme</a></li>
+                                <li class="dropdown-item text-white"><a class="GoDown" id="#langues">Langues</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Humaines</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Autonomie">Autonomie</a></li>
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Communication">Communication</a></li>
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Diplomatie">Diplomatie</a></li>
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Organisation">Organisation</a></li>
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Rigueur">Rigueur</a></li>
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Travail en équipe">Travail en équipe</a></li>
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Créativité">Créativité</a></li>
+                                <li class="dropdown-item text-white"><a href="HumanSkills.html?id=&Engagement">Engagement</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown  mx-3">
+                    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes réalisations</a> 
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1">
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Web</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="../projects/GestionEleves.html">Site web Gestion d'eleves(Php)</a></li>
+                                <li class="dropdown-item text-white"><a href="../projects/Secuserve.html">Plateforme Secuserve(Php)</a></li>
+                                <li class="dropdown-item text-white"><a href="../projects/Petanque.html">Site web Jeu Pétanque(Php)</a></li>
+                                <li class="dropdown-item text-white"><a href="../projects/Planner.html">GFI Planner(c#)</a></li>
+                                <li class="dropdown-item text-white"><a href="../projects/Timesheet.html">GFI TimeSheet(c#)</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Mobile </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="../projects/Android.html">Apllication Mobile(Android)</a></li>
+                            </ul>
+                        </li>                        
+                        <li class="dropdown-item dropdown ">
+                            <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Client Lourd</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
+                                <li class="dropdown-item text-white"><a href="../projects/JavaBanque.html">La Banque(Java)</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="../contact/contact.html"> Me Contacter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <body>
-        <div>TODO write content</div>
+        <div class="row col-sm-12 justify-content-center">
+            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:150px;" id="analyser">Compétences Professionnelles</div>
+        </div>
+        <div class=" row col-sm-12 justify-content-center" >
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
+                <h4>Analyser</h4>
+                <hr>
+                <h5>Définition</h5>
+                <p>Toutes les projets bons projets, naissent avec une bonne Analyse, analyse que doit répondre aux besoins actuels, et aux futurs besoins.</p>
+                <br>
+                <h5>Mise en contexte</h5>
+                <p>Dans les deux entreprises dans lesquelles j'ai eu la chance de travailler, j'ai pu mettre cette competence en avant pour pouvoir effectuer des modifications ou criations des nouveuax logiciels.</p>
+                <br>
+                <h5>Mon point de vue</h5>
+                <p>Pour une bonne analyse, est essentielle bien connaitre le sujet, savoir écouter\lire, s'y mettre à la place du client, cheffe, l'utilisateur final.</p>
+                <p>Un bon abordage va nous permettre de définir la bonne méthodologie, les objectifs du futur logicielle, le cout, les fonctionnalités souhaités, 
+                    la meilleure technologie à employer pour le moindre temps de développements possible, la plus performante et maintenable, en gros répondre aux besoins du client,
+                    ou peut-être lui aider à trouver ce dont il a besoin.</p>
+                <p>Appliquant cette recette, surement nous aurons des clients satisfaits et une croissance constante dans l'entreprise.</p>
+            </div>
+        </div>
+        <div class=" row col-sm-12 justify-content-center" id="gestionDeProjet">
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">              
+                <h4>Gestion de projet</h4>
+                <hr>
+                <h5>Définition</h5>
+
+                <p> La gestion de projet c'est: c'est mener un projet en définissant les jalons de sa réalisation.</p>
+
+                <p>prendre en compte:</p>
+                <ul>
+                    <li>les ressources allouées et leurs disponibilités</li>
+                    <li>les risque et les opportunité a gérer</li>
+                    <li>les contraintes de budget, temps et de qualité</li>
+                </ul>
+                <br>
+                <h5>Mise en contexte</h5>
+
+                <p>J’ai étudié lors du cours «Mastère Expert en Ingénierie du Logiciel «,si bien comme en entreprise,  les différentes approches et méthodes de la gestion de projet.</p>
+                <p>A travers de la réalisation de quelques projets à l’école et en entreprise mon permis de
+                    comprendre les étapes nécessaires pour aboutir un projet comme la récolte des besoins du 
+                    client, écrire un cahier de charges, planifier, chiffrer, maîtriser et piloter les risques, 
+                    écrire les spécifications fonctionnelles, les spécifications techniques, faire des maquettes,
+                    choisir la meilleur méthodologie de gestion de projet spécifiques à l'ingénierie logicielle
+                    telles que la méthode AGILE (SCRUM, Cycle en V…), eu aussi avoir un l'équilibre de qualité-coût-délai (QCD).</p>
+                <p>Un autre point que je pense important est le management des personnes. 
+                    Mes études et mes experiences dans le monde profissional m'ont également permis d'acquérir les bases du management de personnes.</p>
+                <br>
+                <h5>Mon point de vue</h5>
+
+                <p>Cette formation et projets en entreprise, m'ont permis de me constituer une large boite à outils de chef de projet. 
+                    Ils m'ont également permis de comprendre l'environnement dans lequel j'étais et d'avoir les bons réflexes quant à mes travaux.</p>
+            </div>
+        </div>
+        <div class=" row col-sm-12 justify-content-center" id="conception">
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
+                <h4>Conception</h4>
+                <hr>
+                <h5>Définition</h5>
+
+                <p> La conception c'est savoir formaliser et organiser les idées. 
+                    Pour mieux concevoir, on peut s'appuyer sur : 
+                </p>
+
+                <ul>
+                    <li>Diagrammes variés</li>
+                    <li>Spécification Fonctionnelles</li>
+                    <li>Spécification Techniques</li>
+                </ul>
+
+                <br>
+                <h5>Mise en contexte</h5>
+
+                <p>
+                    Dans les deux entreprises dans lesquelles j'ai eu la chance de travailler, 
+                    j'ai eu l'opportunité de concevoir des modifications et créations 
+                    des nouveaux logiciels ainsi comme des bases de données. 
+                </p>
+
+                <br>
+                <h5>Mon point de vue</h5>
+                <p> 
+                    Bien concevoir demande de l'expérience, il faut répondre aux besoins du client, 
+                    pour effectuer un bon cahier de charges, choisir la meilleure méthodologie de travaille, 
+                    concevoir des specs techniques, une bonne base de données, les langages de programmation 
+                    plus adaptés au projet et ne pas avoir peur de faire marche arrière eu moment de la conception, 
+                    parfois faire deux pas en arrière c'est marcher vers l'avant.  
+                </p>
+            </div>
+        </div>
+
+        <div class=" row col-sm-12 justify-content-center" id="developpement">
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
+                <h4>Développement</h4>
+                <hr>
+                <h5>Définition</h5>
+
+                <p> Développer c’est écrire le code source des applications dans les variés langages 
+                    de programmation existantes et utilisés les techniques de programmation plus modernes.</p>
+                <br>
+                <h5>Mise en contexte</h5>
+
+                <p>
+                    Avec 15 ans, au lycée, j'ai eu mon premier contact avec la programmation. 
+                    C'est en Pascal que j'ai développé mon premier programme.
+                    Encore au lycée j'ai appris à développer des bases de données, à faire du développement 
+                    web avec des sites en Html. Plus tarde, chez l'Afip, j'ai appris à développer avec Php, 
+                    Css, Bootstrap, Javascript, Java, c#, Mysql, Sql Server et Android. 
+                </p>
+                <br>
+                <h5>Mon point de vue</h5>
+                <p>
+                    La tâche du développeur est d'extrême importance pour le succès de l'application pour que 
+                    l'application réponds au c'est que c'est demandé, pour que ça soit performent,
+                    que soit préparé aux évolutions et que puisse prévoir tous les cas de figure. 
+                </p>
+
+            </div>
+        </div>
+
+
     </body>
-</html>
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+   $(document).ready(function () {
+
+       var pageURL = window.location.href;
+       var lastURLSegment = "#" + pageURL.substr(pageURL.lastIndexOf('&') + 1);
+       $('html').animate({scrollTop: $(lastURLSegment).offset().top - 100}, 2000);
+
+       $('.navbar .dropdown-item').on('mouseenter', function (e) {
+           var $el = $(this).children('.dropdown-toggle');
+           var $parent = $el.offsetParent(".dropdown-menu");
+           $(this).parent("li").toggleClass('open');
+
+           if (!$parent.parent().hasClass('navbar-nav')) {
+               if ($parent.hasClass('show')) {
+                   $parent.removeClass('show');
+                   $el.next().removeClass('show');
+                   $el.next().css({"top": -999, "left": -999});
+               } else {
+                   $parent.parent().find('.show').removeClass('show');
+                   $parent.addClass('show');
+                   $el.next().addClass('show');
+                   $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+               }
+               e.preventDefault();
+               e.stopPropagation();
+           }
+       });
+
+       $(".GoDown").click(function () {
+           var id = $(this).attr('id');
+           $('html').animate({
+               scrollTop: $(id).offset().top - 100},
+                   2000);
+       });
+
+       $('.navbar .dropdown').on('hidden.bs.dropdown', function () {
+           $(this).find('li.dropdown').removeClass('show open');
+           $(this).find('ul.dropdown-menu').removeClass('show open');
+       });
+
+       $(".chart").easyPieChart({ 
+           size: 130,
+           barColor: '#17a2b8', //17d3e6
+           scaleColor: false,
+           lineWidth: 12,
+           trackColor: '373737',
+           lineCap: 'Circle',
+           animate: 3000
+
+       });
+   });
+
+    </script>
