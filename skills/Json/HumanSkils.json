@@ -1,0 +1,235 @@
+{
+    "Html": {
+        "Autonomie": "HumanSkills.html?id=&Autonomie",
+        "Curieux":"HumanSkills.html?id=&Curieux"  ,
+        "Perspicace":"HumanSkills.html?id=&Perspicace",
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe"
+
+    },
+    
+    "Css":{
+        "Autonomie": "HumanSkills.html?id=&Autonomie",
+        "Curieux":"HumanSkills.html?id=&Curieux"  ,
+        "Perspicace":"HumanSkills.html?id=&Perspicace",
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",
+         "Créativité":"HumanSkills.html?id=&Créativité"
+
+    },
+    
+    "Bootstrap":{
+        "Autonomie": "HumanSkills.html?id=&Autonomie",
+        "Curieux":"HumanSkills.html?id=&Curieux"  ,
+        "Perspicace":"HumanSkills.html?id=&Perspicace",
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",
+         "Créativité":"HumanSkills.html?id=&Créativité"
+
+    },
+    
+    "JavaScript":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Créativité":"HumanSkills.html?id=&Créativité", 
+        "Engagement":"HumanSkills.html?id=&Engagement"
+        
+    },
+    
+    "PHP":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Organisation":"HumanSkills.html?id=&Organisation",  
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "C#":{        
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication", 
+        "Organisation":"HumanSkills.html?id=&Organisation",  
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Créativité":"HumanSkills.html?id=&Créativité", 
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "Java":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication", 
+        "Organisation":"HumanSkills.html?id=&Organisation",  
+        "Rigueur":"HumanSkills.html?id=&Rigueur" 
+
+
+    },
+    
+    "MySql":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",   
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "SqlServer":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",   
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "FireBase":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur"  
+
+
+    },
+    
+    "Entity Framework":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe"
+ 
+    },
+    
+    "Hibernate":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication"
+
+    },
+    "Linq":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication"
+    },
+    
+    "Jquery":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Créativité":"HumanSkills.html?id=&Créativité", 
+        "Engagement":"HumanSkills.html?id=&Engagement"
+    },
+    
+    "TypeScript":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Organisation":"HumanSkills.html?id=&Organisation",  
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Créativité":"HumanSkills.html?id=&Créativité", 
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "Symphony":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace",       
+        "Créativité":"HumanSkills.html?id=&Créativité"
+    },
+    
+    "Asp.net":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Créativité":"HumanSkills.html?id=&Créativité"
+
+    },
+    
+    "Ajax":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace" 
+       
+    },
+    
+    "Android Studio(Java)":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Communication":"HumanSkills.html?id=&Communication", 
+        "Créativité":"HumanSkills.html?id=&Créativité" 
+
+    },
+    
+    "Diagramme de classes":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Organisation":"HumanSkills.html?id=&Organisation",  
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "Diagramme de Cas":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Organisation":"HumanSkills.html?id=&Organisation",  
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "Diagramme de séquence":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Organisation":"HumanSkills.html?id=&Organisation",  
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "Mvc":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace" 
+
+    },
+    
+    "POO":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace", 
+        "Rigueur":"HumanSkills.html?id=&Rigueur",  
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    },
+    
+    "Code First":{
+        "Autonomie":"HumanSkills.html?id=&Autonomie",  
+        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Perspicace":"HumanSkills.html?id=&Perspicace",  
+        "Engagement":"HumanSkills.html?id=&Engagement" 
+    }
+}
+
+
