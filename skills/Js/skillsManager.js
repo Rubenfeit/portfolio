@@ -1,4 +1,4 @@
-//Load this file in the page were we have need
+//Load this file on the page where we need :) .|. 
 
 skillsManager = window.skillsManager || {};
 
