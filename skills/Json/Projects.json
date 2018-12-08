@@ -1,8 +1,51 @@
 {
-  "Css" : [
-    "shortcutName1", "shortcutName3"
-  ],
-  "Html" : [
-    "shortcutName2", "shortcutName4"
-  ]
+    "Css" : ["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet"],
+  
+    "Html" : ["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet"],
+
+    "Bootstrap":["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet"],
+    
+    "JavaScript":["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet"],
+    
+    "PHP":["GestionEleves", "Secuserve","Petanque"],
+    
+    "C#":["Planner","Timesheet"],
+    
+    "Java":["LaBanque","Android"],
+    
+    "MySql":["GestionEleves", "Secuserve","Petanque","LaBanque"],
+    
+    "SqlServer":["Planner"],
+    
+    "FireBase":["Android"],
+    
+    "Entity Framework":["Planner","Timesheet"],
+    
+    "Hibernate":["LaBanque"],
+    
+    "Linq":["Planner","Timesheet"],
+    
+    "Jquery":["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet"],
+    
+    "TypeScript":["Planner","Timesheet"],
+    
+    "Symphony":[],
+    
+    "Asp.net":["Planner","Timesheet"],
+    
+    "Ajax":["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet"],
+    
+    "Android Studio(Java)":["Android"],
+    
+    "Diagramme de classes":["Secuserve","Planner","Timesheet"],
+    
+    "Diagramme de Cas":["Secuserve","Planner","Timesheet"],
+    
+    "Diagramme de séquence":["Secuserve","Planner","Timesheet"],
+    
+    "Mvc":["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet"],
+    
+    "POO":["GestionEleves", "Secuserve","Petanque" ,"Planner","Timesheet","Android","LaBanque"],
+    
+    "Code First":["Planner","Timesheet"]
 }

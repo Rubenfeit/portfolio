@@ -1,18 +1,30 @@
 {
-  "shortcutName1": {
-    "name": "The name of my f*ck*ng project one",
-    "link": "/dezfzefz?fdzefze=dezfze"
+  "GestionEleves": {
+    "name": "Site web Gestion d'eleves",
+    "link": "../projects/GestionEleves.html"
   },
-  "shortcutName2": {
-    "name": "The name of my f*ck*ng project one",
-    "link": "/dezfzefz?fdzefze=dezfze"
+  "Secuserve": {
+    "name": "Plateforme Secuserve",
+    "link": "../projects/Secuserve.html"
   },
-  "shortcutName3": {
-    "name": "The name of my f*ck*ng project one",
-    "link": "/dezfzefz?fdzefze=dezfze"
+  "Petanque": {
+    "name": "Site web Jeu Pétanque",
+    "link": "../projects/Petanque.html"
   },
-  "shortcutName4": {
-    "name": "The name of my f*ck*ng project one",
-    "link": "/dezfzefz?fdzefze=dezfze"
+    "Planner": {
+    "name": "GFI Planner",
+    "link": "../projects/Planner.html"
+  },
+  "Timesheet": {
+    "name": "GFI TimeSheet",
+    "link": "../projects/Timesheet.html"
+  },
+  "Android": {
+    "name": "Apllication Mobile",
+    "link": "../projects/Android.html"
+  }, 
+     "LaBanque": {
+    "name": "La Banque(Java)",
+    "link": "../projects/JavaBanque.html"
   }
 }
