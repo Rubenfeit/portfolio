@@ -1,6 +1,7 @@
 .card-header {
     border-radius: unset;
     background-color: rgb(23, 162, 184)!important;
+    font-size: 20px;
 }
 .card-body{
     color: #040404d1;
