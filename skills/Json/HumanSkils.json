@@ -1,7 +1,7 @@
 {
     "Html": {
         "Autonomie": "HumanSkills.html?id=&Autonomie",
-        "Curieux":"HumanSkills.html?id=&Curieux"  ,
+        "Curiosité":"HumanSkills.html?id=&Curieux"  ,
         "Perspicace":"HumanSkills.html?id=&Perspicace",
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
         "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe"
@@ -10,7 +10,7 @@
     
     "Css":{
         "Autonomie": "HumanSkills.html?id=&Autonomie",
-        "Curieux":"HumanSkills.html?id=&Curieux"  ,
+        "Curiosité":"HumanSkills.html?id=&Curieux"  ,
         "Perspicace":"HumanSkills.html?id=&Perspicace",
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
         "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",
@@ -20,7 +20,7 @@
     
     "Bootstrap":{
         "Autonomie": "HumanSkills.html?id=&Autonomie",
-        "Curieux":"HumanSkills.html?id=&Curieux"  ,
+        "Curiosité":"HumanSkills.html?id=&Curieux"  ,
         "Perspicace":"HumanSkills.html?id=&Perspicace",
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
         "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",
@@ -30,7 +30,7 @@
     
     "JavaScript":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
         "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
@@ -41,7 +41,7 @@
     
     "PHP":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Organisation":"HumanSkills.html?id=&Organisation",  
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -51,7 +51,7 @@
     
     "C#":{        
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication", 
         "Organisation":"HumanSkills.html?id=&Organisation",  
@@ -63,7 +63,7 @@
     
     "Java":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication", 
         "Organisation":"HumanSkills.html?id=&Organisation",  
@@ -74,7 +74,7 @@
     
     "MySql":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication", 
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -84,7 +84,7 @@
     
     "SqlServer":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication", 
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -94,7 +94,7 @@
     
     "FireBase":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Rigueur":"HumanSkills.html?id=&Rigueur"  
 
@@ -103,7 +103,7 @@
     
     "Entity Framework":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
         "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe"
@@ -112,21 +112,21 @@
     
     "Hibernate":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication"
 
     },
     "Linq":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication"
     },
     
     "Jquery":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication", 
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -137,7 +137,7 @@
     
     "TypeScript":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Organisation":"HumanSkills.html?id=&Organisation",  
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -148,14 +148,14 @@
     
     "Symphony":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace",       
         "Créativité":"HumanSkills.html?id=&Créativité"
     },
     
     "Asp.net":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
         "Travail en équipe":"HumanSkills.html?id=&TravailEnEquipe",  
@@ -165,14 +165,14 @@
     
     "Ajax":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace" 
        
     },
     
     "Android Studio(Java)":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Communication":"HumanSkills.html?id=&Communication", 
         "Créativité":"HumanSkills.html?id=&Créativité" 
@@ -181,7 +181,7 @@
     
     "Diagramme de classes":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Organisation":"HumanSkills.html?id=&Organisation",  
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -191,7 +191,7 @@
     
     "Diagramme de Cas":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Organisation":"HumanSkills.html?id=&Organisation",  
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -201,7 +201,7 @@
     
     "Diagramme de séquence":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Organisation":"HumanSkills.html?id=&Organisation",  
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
@@ -211,14 +211,14 @@
     
     "Mvc":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace" 
 
     },
     
     "POO":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace", 
         "Rigueur":"HumanSkills.html?id=&Rigueur",  
         "Engagement":"HumanSkills.html?id=&Engagement" 
@@ -226,7 +226,7 @@
     
     "Code First":{
         "Autonomie":"HumanSkills.html?id=&Autonomie",  
-        "Curieux":"HumanSkills.html?id=&Curieux",
+        "Curiosité":"HumanSkills.html?id=&Curieux",
         "Perspicace":"HumanSkills.html?id=&Perspicace",  
         "Engagement":"HumanSkills.html?id=&Engagement" 
     }
