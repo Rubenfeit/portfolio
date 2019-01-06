@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
             <ul class="navbar-nav">
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="experiences/experiences.html">Mon Parcours</a>
+                    <a class="nav-link" href="experiences/experiences.html">Mon Parcours</a> 
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes compétances</a>
