@@ -137,10 +137,10 @@
 
                 <div class=" row col-lg-12 " >
                     <div class="col-lg-10 ">
-                        <h4 class="card-title" style="margin-top: 45px">Qui suis-je?</h4>
+                        <h4 class="card-title" style="margin-top: 55px">Qui suis-je?</h4>
                     </div>
                     <div class="col-lg-2 ">
-                        <img src="images/photo.jpg" class="rounded" alt="Logo Petanque" style="height: 140px;width:160px;margin-left: -20px;">
+                        <img src="images/photo.jpg" class="rounded" alt="Logo Petanque" style="height: 150px;width:140px;margin-left: -20px;">
                     </div>
                 </div>
                 <hr>
