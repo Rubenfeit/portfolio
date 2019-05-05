@@ -127,12 +127,45 @@
                 </div> 
             </div>
         </div>
+       
+        
         <div class="row col-sm-12 justify-content-center">
+            <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:60px;">Ruben Feiteira</div>
+        </div>
+        <div class=" row col-sm-12 justify-content-center" style="margin-top: 10px;">
+            <div class="p-4 bg-white shadow-sm col-sm-7 letra">
+
+                <div class=" row col-lg-12 " >
+                    <div class="col-lg-10 ">
+                        <h4 class="card-title" style="margin-top: 55px">Qui suis-je?</h4>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <img src="images/photo.jpg" class="rounded" alt="Logo Petanque" style="height: 150px;width:140px;margin-left: -20px;">
+                    </div>
+                </div>
+                <hr>
+                <p>Bienvenue sur mon portfolio ! Je m’appelle Ruben Feiteira, j’ai 29 ans et je possède un diplôme de Concepteur Développeur Informatique, obtenu dans 
+                    l’école supérieure privée d'informatique (Afip). J’ai créé ce portfolio afin de vous offrir une vision détaillée de mon parcours, mes compétences ainsi que de mes réalisations.
+                </p>
+                <p>Passionné par les nouvelles technologies depuis mon plus jeune âge, j’ai décidé de poursuivre l’informatique dans cette voie dès que j'ai eu 
+                    l'opportunité, en pratiquant dans ma vie professionnelle. Mon parcours m’a permis de développer des compétences que je peux appliquer dans l'informatique. 
+                    Au travers l'informatique je peux aider l'humanité à se développer et se concentrer dans l'essentiel de leur vie et faire avancer le monde.
+                </p>
+                <p>Aujourd’hui, je suis dans le milieu professionnel, avec l’envie de développer mon expérience, mes compétences, et d’explorer les nouvelles tendances du monde de l’informatique. Bonne visite !
+                </p>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <!--div class="row col-sm-12 justify-content-center">
             <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:60px;">Ruben Feiteira</div>
         </div>
         <div class="row col-sm-12 justify-content-center" style="margin-top: 10px;">
             <div class="p-5 bg-white shadow-sm col-sm-7 letra" >
-
                 <h4 class="card-title">Qui suis-je?</h4>
                 <hr>
                 <p>Bienvenue sur mon portfolio ! Je m’appelle Ruben Feiteira, j’ai 29 ans et je possède un diplôme de Concepteur Développeur Informatique, obtenu dans l’école supérieure privée d'informatique (Afip). J’ai créé ce portfolio afin de vous offrir une vision détaillée de mon parcours, mes compétences ainsi que de mes réalisations.
@@ -142,7 +175,12 @@
                 <p>Aujourd’hui, je suis dans le milieu professionnel, avec l’envie de développer mon expérience, mes compétences, et d’explorer les nouvelles tendances du monde de l’informatique. Bonne visite !
                 </p>
             </div>
-        </div>
+        </div-->
+        
+        
+        
+        
+        
         <div class="row col-sm-12 justify-content-center">
             <div class="card-header bg-primary text-white text-center col-sm-7"  style="border: 1px solid #17a2b8;margin-top:60px;">Centre d’intérêts</div>
         </div>

@@ -195,3 +195,14 @@ nav li a{
 
 li { cursor: pointer; }
 
+#sage:hover { 
+    color: #00e600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover{
+    color: fuchsia;
+    text-decoration: none;
+    transition: 0.5s ease;            
+}
