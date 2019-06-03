@@ -12,6 +12,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="Js/skillsManager.js"></script>
         <link rel="stylesheet" href="../css/style.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <title>Portfolio Ruben Feiteira</title>
     </head>
    
@@ -55,7 +56,7 @@
                         <li class="dropdown-item dropdown ">
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >Compétences Professionnelles </a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
-                                <li class="dropdown-item text-white"><a href="profissionalSkils.html?id=&analyser">Analyser</a></li>
+                                <li class="dropdown-item text-white"><a href="profissionalSkils.html?id=&analyser">Analyse</a></li>
                                 <li class="dropdown-item text-white"><a href="profissionalSkils.html?id=&conception">Conception</a></li>
                                 <li class="dropdown-item text-white"><a href="profissionalSkils.html?id=&developpement">Développement</a></li>
                                 <li class="dropdown-item text-white"><a href="profissionalSkils.html?id=&gestionDeProjet">Gestion de projet</a></li>
@@ -384,8 +385,50 @@
             </div>       
         </div>
         
+        <div class="row col-lg-12"  style="margin-top:50px;margin-bottom:40px;" id="web">
+            <div class="p-5 card-header bg-primary text-white text-center col-lg-2"  style="border: 1px solid #17a2b8; margin-right:20px;padding-top:100px; line-height:175px;height: 267px;">
+                <p>Front-End</p>
+            </div>
+            <div class="p-5 bg-white shadow-sm col-lg-8" style="margin-right:0px;">
+                <div class="row justify-content-center bg-white col-lg-12">
+                    <div class="col-lg-3 ">
+                        <div class="container">   			
+                            <div class="box">
+                                <div data-content="Jquery" class="chart" data-percent="70">70% </div>
+                                <h3 data-content="Jquery">Jquery</h3>		
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="container">   			
+                            <div class="box">
+                                <div data-content="TypeScript" class="chart" data-percent="70">70% </div>	
+                                <h3 data-content="TypeScript">TypeScript</h3>	
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="container">   			
+                            <div class="box">
+                                    <div data-content="Asp.net" class="chart" data-percent="80">80%</div>	
+                                    <h3 data-content="Asp.net">Asp.net</h3>		
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="container">   			
+                            <div class="box">
+                                    <div data-content="Ajax" class="chart" data-percent="90">90%</div>		
+                                    <h3 data-content="Ajax">Ajax</h3>	
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
         
-        <div class="row col-lg-12" style="margin-top:50px;margin-bottom:40px;" id="web">
+        
+        <!--div class="row col-lg-12" style="margin-top:50px;margin-bottom:40px;" id="web">
             <div class="p-4 card-header bg-primary text-white text-center col-lg-2"  style="border: 1px solid #17a2b8; margin-right:20px;padding-top:100px; line-height:350px;"><p>Web Technologies</p></div>
             <div class="p-3 bg-white shadow-sm col-lg-8">
                 <div class="row justify-content-center bg-white col-lg-12" style="margin-right:0px; padding-top: 30px;">
@@ -433,7 +476,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
         
          <div class="row web col-lg-12" style="display:none;">
             <div class="col-lg-2" style=" margin-right:20px;">           
@@ -702,10 +745,15 @@
         </div>
     </div>
     
-        <footer class="page-footer font-small blue">
+        <footer style="clear:both;">
             <div class="footer-copyright text-center py-3">© 2018 
                  Ruben Feiteira
             </div>
+            <div class="text-center center-block">
+                <a href="https://www.facebook.com/ruben.feiteira.9" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://www.linkedin.com/in/ruben-feiteira-a343b9125" target="_blank"><i id="social-link" class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="https://www.instagram.com/rubenfeit/" target="_blank"><i id="social-inst" class="fa fa-instagram fa-3x social"></i></a>
+            </div>    
         </footer>
 
     <script type="text/javascript">
@@ -778,7 +826,7 @@ var previeousContent= "";
                 content == "Android Studio(Java)" || 
                 content == "Diagramme de Cas" ||content == "Diagramme de séquence" || content == "Diagramme de classes"
                 ){
-            htmlContent += "<a href='profissionalSkils.html?id=&analyser' class='marge'>Analyser</a>"; 
+            htmlContent += "<a href='profissionalSkils.html?id=&analyser' class='marge'>Analyse</a>"; 
         }
           
         if(content == "Diagramme de Cas" ||content == "Diagramme de séquence" || content == "Diagramme de classes"){
