@@ -1,4 +1,4 @@
-
+    
 <!doctype html>
 <html lang="en">
     <head>
@@ -13,23 +13,24 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="api/jquery.easypiechart.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <title>Portfolio Ruben Feiteira</title>
     </head>
-
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="./Index.php">Accueil</a>
+    
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="Index.php">Accueil</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
             <ul class="navbar-nav">
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="experiences/experiences.html">Mon Parcours</a> 
+                <li class="nav-item active mx-3">
+                    <a class="nav-link" href="experiences/experiences.html">Mon Parcours <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes compétences</a>
                     <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1">
+                        <!--li class="dropdown-item text-white" href="#"><a>Action 1</a></li-->
                         <li class="dropdown-item dropdown ">
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Téchniques</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
@@ -46,12 +47,12 @@
                         <li class="dropdown-item dropdown ">
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Professionnelles </a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
-                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&analyser">Analyser</a></li>
+                                <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&analyser">Analyse</a></li>
                                 <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&conception">Conception</a></li>
                                 <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&developpement">Développement</a></li>
                                 <li class="dropdown-item text-white"><a href="skills/profissionalSkils.html?id=&gestionDeProjet">Gestion de projet</a></li> 
                             </ul>
-                        </li>                        
+                        </li>
                         <li class="dropdown-item dropdown ">
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Compétences Humaines</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
@@ -69,13 +70,13 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes réalisations</a>
+                <li class="nav-item dropdown  mx-3">
+                    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes réalisations</a> 
                     <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1">
                         <li class="dropdown-item dropdown ">
                             <a class="dropdown-toggle text-white " id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Web</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown1-1">
-                                <li class="dropdown-item text-white"><a href="projects/GestionEleves.html">Site web Gestion d'élèves(Php)</a></li>
+                                <li class="dropdown-item text-white"><a href="projects/GestionEleves.html">Site web Gestion d'eleves(Php)</a></li>
                                 <li class="dropdown-item text-white"><a href="projects/Secuserve.html">Plateforme Secuserve(Php)</a></li>
                                 <li class="dropdown-item text-white"><a href="projects/Petanque.html">Site web Jeu Pétanque(Php)</a></li>
                                 <li class="dropdown-item text-white"><a href="projects/Planner.html">GFI Planner(c#)</a></li>
@@ -97,11 +98,12 @@
                     </ul>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="contact/contact.html"> Me Contacter </a>
+                    <a class="nav-link" href="contact/contact.html"> Me Contacter</a>
                 </li>
             </ul>
         </div>
     </nav>
+
     <body>
         <div class='content p-5'>
             <div class="row mt-5 mx-lg-3 bg-white shadow-sm">
@@ -359,10 +361,15 @@
 
     </body>
 
-        <footer class="page-footer font-small blue">
+        <footer style="clear:both;">
             <div class="footer-copyright text-center py-3">© 2018 
                  Ruben Feiteira
             </div>
+            <div class="text-center center-block">
+                <a href="https://www.facebook.com/ruben.feiteira.9" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://www.linkedin.com/in/ruben-feiteira-a343b9125" target="_blank"><i id="social-link" class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="https://www.instagram.com/rubenfeit/" target="_blank"><i id="social-inst" class="fa fa-instagram fa-3x social"></i></a>
+            </div>    
         </footer>
 
     <script type="text/javascript">
